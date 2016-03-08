@@ -342,7 +342,8 @@ return {
     "%[(audio)%]",
     "%[(document)%]",
     "%[(photo)%]",
-    "^ðŸ˜¡$"
+    "^ðŸ˜¡$",
+    "^🖕$"
   },
   run = run,
   pre_process = pre_process
