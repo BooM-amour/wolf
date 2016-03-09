@@ -230,7 +230,7 @@ function create_config( )
     sudo_users = {210948526,141422437,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[DeaDkings  - 
+    about_text = [[deadkings  - 
 An advance Administration bot based on yagop/telegram-bot 
 
 
