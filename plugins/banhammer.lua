@@ -256,7 +256,7 @@ if msg.media and msg.media.caption == 'sticker.webp' then
       return get_message(msg.reply_id,banall_by_reply, false)
     end
 end
-if matches[1]:lower() == 'ðŸ˜¡' then
+if matches[1]:lower() == '😡' then
     if type(msg.reply_id) ~="nil" and is_sudo(msg) then
          return get_message(msg.reply_id,banall_by_reply, false)
     end
@@ -317,7 +317,7 @@ return {
     "id: Return Group Id",
     "id [reply]: Return User Id.",
     "Sticker [Reply]: Banned User Of All Groups.",
-    "ðŸ˜¡ [Reply]: Banned User Of All Groups.",
+    "😡 [Reply]: Banned User Of All Groups.",
     },
   patterns = {
     "^!!tgservice (.+)$",
@@ -341,7 +341,7 @@ return {
     "%[(audio)%]",
     "%[(document)%]",
     "%[(photo)%]",
-    "^ðŸ˜¡$"
+    "^😡$"
   },
   run = run,
   pre_process = pre_process
