@@ -1,13 +1,13 @@
 do
     local function run(msg, matches)
-        return " X-ViRuS-X V 1\nAdvanced Bot Base On Seed\n\n@VvViruSs[DeVeLoPeR]\n\n#Open_Source_On [@WilSoN_DeVeLoPeR]"
+        return " DeaDKinGs\nAdvanced Bot Base On Seed\n\n@danyyyx[DeVeLoPeR]\n\n@KinG0fDeaD[DeVeLoPeR&CREATOR]\n\n#WE_ARE_WITH_YOU_ON [@DeaD_T34M]"
     end
     return {
         usage = {
-            "virus: About Current Bot.",
+            "kings: About Current Bot.",
             },
         patterns = {
-            "^([Vv]irus)$",
+            "^([Kk]ings)$",
             },
         run = run 
     }
