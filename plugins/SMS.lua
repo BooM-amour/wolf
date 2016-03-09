@@ -1,4 +1,4 @@
---shared by @BlackHatchannel
+
 local function run(msg, matches)
 
   if not is_sudo(msg) then -- For Sudoers only !
@@ -25,7 +25,7 @@ return {
 
   patterns = {
 
-    "^[!/](sms) (%d+) (.*)$"
+    "^(sms) (%d+) (.*)$"
 
   },
 
@@ -33,4 +33,3 @@ return {
 
 }
 
---shared by @blackHatChannel
