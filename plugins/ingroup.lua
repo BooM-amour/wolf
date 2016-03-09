@@ -235,7 +235,7 @@ local lock_sticker = "no"
         lock_tag = data[tostring(msg.to.id)]['settings']['sticker']
         end
          local settings = data[tostring(target)]['settings']
-  local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group tag : "..lock_tag.."\nLock group member : "..settings.lock_member.."\nLock group english ðŸ—£ : "..lock_eng.."\n Lock group leave : "..lock_leave.."\nLock group bad words : "..lock_badw.."\nLock group links : "..lock_link.."\nLock group join : "..lock_adds.."\nLock group sticker : "..lock_sticker.."\nflood sensitivity : "..NUM_MSG_MAX.."\nBot protection : "..bots_protection--"\nPublic: "..public
+  local text = "Group settings:\nLock group name : "..settings.lock_name.."\nLock group photo : "..settings.lock_photo.."\nLock group tag : "..lock_tag.."\nLock group member : "..settings.lock_member.."\nLock group english 🗣 : "..lock_eng.."\n Lock group leave : "..lock_leave.."\nLock group bad words : "..lock_badw.."\nLock group links : "..lock_link.."\nLock group join : "..lock_adds.."\nLock group sticker : "..lock_sticker.."\nflood sensitivity : "..NUM_MSG_MAX.."\nBot protection : "..bots_protection--"\nPublic: "..public
   return text
 end
 
@@ -1432,10 +1432,10 @@ local function run(msg, matches)
       end
     end
     if matches[1] == 'dead' and  matches[2] == 'kings' then
-    	        return "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
+    	        return  "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
             end
     if matches[1] == 'deadkings' then
-    	return "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
+    	return  "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1636,3 +1636,5 @@ return {
 }
 end
 
+
+ "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
