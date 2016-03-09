@@ -305,22 +305,21 @@ end
 end
 
 return {
+  usage = {
+    "banall: Banned User Of All Groups.",
+    "unbanall: Removed User Of Globally Ban List.",
+    "ban: Ban User Of Group.",
+    "unban: Removed User From Ban List.",
+    "kick: Kick User Of Group.",
+    "kickme: Kick You Of Group.",
+    "banlist: List Of Banned Of Group.",
+    "gbanlist: List Of Globally Banned Of Bots.",
+    "id: Return Group Id",
+    "id [reply]: Return User Id.",
+    "Sticker [Reply]: Banned User Of All Groups.",
+    "ðŸ˜¡ [Reply]: Banned User Of All Groups.",
+    },
   patterns = {
-    "^[!/$&#@]([Bb]anall) (.*)$",
-    "^[!/$&#@]([Bb]anall)$",
-    "^[!/$&#@]([Bb]anlist) (.*)$",
-    "^[!/$&#@]([Bb]anlist)$",
-    "^[!/$&#@]([Gg]banlist)$",
-    "^[!/$&#@]([Bb]an) (.*)$",
-    "^[!/$&#@]([Kk]ick)$",
-    "^[!/$&#@]([Uu]nban) (.*)$",
-    "^[!/$&#@]([Uu]nbanall) (.*)$",
-    "^[!/$&#@]([Uu]nbanall)$",
-    "^[!/$&#@]([Kk]ick) (.*)$",
-    "^[!/$&#@]([Kk]ickme)$",
-    "^[!/$&#@]([Bb]an)$",
-    "^[!/$&#@]([Uu]nban)$",
-    "^[!/$&#@]([Ii]d)$",
     "^!!tgservice (.+)$",
     "^([Bb]anall) (.*)$",
     "^([Bb]anall)$",
@@ -342,8 +341,7 @@ return {
     "%[(audio)%]",
     "%[(document)%]",
     "%[(photo)%]",
-    "^ðŸ˜¡$",
-    "^🖕$"
+    "^ðŸ˜¡$"
   },
   run = run,
   pre_process = pre_process
