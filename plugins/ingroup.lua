@@ -1432,10 +1432,10 @@ local function run(msg, matches)
       end
     end
     if matches[1] == 'dead' and  matches[2] == 'kings' then
-    	        return  "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
+    	        return"DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
             end
     if matches[1] == 'deadkings' then
-    	return  "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
+    	return "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1637,4 +1637,3 @@ return {
 end
 
 
- "DEAD_KINGs \n Advanced Bot Base On Seed\n@danyyyx[DeVeLoPeR] \n\n@KinG0fDeaD \n#Open_Source\n\n[@DeaD_T34M](Https://telegra.me/DeaD_T34M)"
