@@ -1,4 +1,4 @@
-
+-- data saved to data/moderation.json
 do
 
 local administrators_only = 'For administrator only!'
@@ -387,9 +387,7 @@ function run(msg, matches)
         return show_group_settings(msg, data)
 		  end
     end
-if not is_momod(msg) then
-	return "Mods Only!"
-	end
+
     if matches[1] == 'sticker' then
       if matches[2] == 'warn' then
         if welcome_stat ~= 'warn' then
@@ -524,9 +522,9 @@ return {
   description = 'Plugin to manage group chat.',
   usage = {
     admin = {
-      'mkgroup <group_name> : Make/create a new group.',
-      'addgroup : Add group to moderation list.',
-      'remgroup : Remove group from moderation list.'
+      '!mkgroup <group_name> : Make/create a new group.',
+      '!addgroup : Add group to moderation list.',
+      '!remgroup : Remove group from moderation list.'
     },
     moderator = {
       'group <lock|unlock> bot : {Dis}allow APIs bots.',
@@ -566,7 +564,7 @@ return {
    -- "^!(setname) (.*)$",
     --"^!(setphoto)$",
   --"^!(setrules) (.*)$",
-    "^(sticker) (.*)$",
+    "(sticker) (.*)$",
     "^!!tgservice (.+)$",
     "%[(video)%]"
   },
@@ -577,4 +575,3 @@ return {
 end
 
 --To Have This Update Lua-tg-c avaiable on tg folder
---Shared by @BlackHatchannel
