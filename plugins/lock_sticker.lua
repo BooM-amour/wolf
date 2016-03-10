@@ -1,5 +1,4 @@
---Shared by @BlackHatchannel
--- data saved to data/moderation.json
+
 do
 
 local administrators_only = 'For administrator only!'
@@ -525,29 +524,29 @@ return {
   description = 'Plugin to manage group chat.',
   usage = {
     admin = {
-      '!mkgroup <group_name> : Make/create a new group.',
-      '!addgroup : Add group to moderation list.',
-      '!remgroup : Remove group from moderation list.'
+      'mkgroup <group_name> : Make/create a new group.',
+      'addgroup : Add group to moderation list.',
+      'remgroup : Remove group from moderation list.'
     },
     moderator = {
-      '!group <lock|unlock> bot : {Dis}allow APIs bots.',
-      '!group <lock|unlock> member : Lock/unlock group member.',
-      '!group <lock|unlock> name : Lock/unlock group name.',
-      '!group <lock|unlock> photo : Lock/unlock group photo.',
-      '!group settings : Show group settings.',
-      '!link <set> : Generate/revoke invite link.',
-      '!setabout <description> : Set group description.',
-      '!setname <new_name> : Set group name.',
-      '!setphoto : Set group photo.',
-      '!setrules <rules> : Set group rules.',
-      '!sticker warn : Sticker restriction, sender will be warned for the first violation.',
-      '!sticker kick : Sticker restriction, sender will be kick.',
-      '!sticker ok : Disable sticker restriction.'
+      'group <lock|unlock> bot : {Dis}allow APIs bots.',
+      'group <lock|unlock> member : Lock/unlock group member.',
+      'group <lock|unlock> name : Lock/unlock group name.',
+      'group <lock|unlock> photo : Lock/unlock group photo.',
+      'group settings : Show group settings.',
+      'link <set> : Generate/revoke invite link.',
+      'setabout <description> : Set group description.',
+      'setname <new_name> : Set group name.',
+      'setphoto : Set group photo.',
+      'setrules <rules> : Set group rules.',
+      'sticker warn : Sticker restriction, sender will be warned for the first violation.',
+      'sticker kick : Sticker restriction, sender will be kick.',
+      'sticker ok : Disable sticker restriction.'
     },
     user = {
-      '!about : Read group description',
-      '!rules : Read group rules',
-      '!link <get> : Print invite link'
+      'about : Read group description',
+      'rules : Read group rules',
+      'link <get> : Print invite link'
     },
   },
   patterns = {
@@ -567,7 +566,7 @@ return {
    -- "^!(setname) (.*)$",
     --"^!(setphoto)$",
   --"^!(setrules) (.*)$",
-    "^[!/](sticker) (.*)$",
+    "^(sticker) (.*)$",
     "^!!tgservice (.+)$",
     "%[(video)%]"
   },
