@@ -81,12 +81,12 @@ end
 return {
    description = "Who is in that photo?",
    usage = {
-      "!face [url]",
-      "!recognise [url]"
+      "face [url]",
+      "recognise [url]"
    },
    patterns = {
-      "^!face (.*)$",
-      "^!recognise (.*)$"
+      "^face (.*)$",
+      "^recognise (.*)$"
    },
    run = run
 }
