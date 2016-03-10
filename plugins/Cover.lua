@@ -23,7 +23,7 @@ return {
     "/ch (txt) : convert txt to img"
   },
   patterns = {
-    "^[!/@#$&][Tt]xtpic (.+)$",
+    "^[Tt]xtpic (.+)$",
     "^[Tt]xtpic (.+)$"
   },
   run = run
