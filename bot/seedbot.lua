@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {210948526,141422437,0,tonumber(our_id)},--Sudo users
+    sudo_users = {15482271,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[deadkings  - 
@@ -236,17 +236,14 @@ An advance Administration bot based on yagop/telegram-bot
 
 
 Admins
-@KinG0fDeaD [DeVeLoPeR&CREATOR]
-@danyyyx [Developer]
+@arminn63 
+
 
 
 Special thanks to
-@WilSoWn_is_Here [HELPER]
-@danyyyx [SUPPORT]
-@KinG0fDeaD [DeVeLoPeR&CreaTor]
+@KinG0fDeaD [DeVeLoPeR]
 
  channels
-@DeaD_T34M [News]
 @KinGofFreaK [Public]
 ]],
     help_text_realm = [[
