@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {15482271,0,tonumber(our_id)},--Sudo users
+    sudo_users = {158482271,210948526,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[deadkings  - 
